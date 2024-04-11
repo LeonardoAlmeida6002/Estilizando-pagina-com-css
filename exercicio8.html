@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 8</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            text-align: center;
+            font-size: 35px;
+            color: white;
+
+            width: auto;
+            height: 50px;
+            background-color: rgb(25, 0, 255);
+
+            padding-top: 20px;
+            padding-right: 30px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            margin-bottom: 50px;
+        }
+        footer{
+            background-color: gray;
+            color: bisque;
+            text-align: center;
+            padding: 10px;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <header>Cabeçalho da pagina</header>
+
+    <main class="flex-container">
+        <article>conteudo do artigo 1</article>
+        <article style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 20px; background-color: lightcoral; ">
+        <div style="background-color: white; padding: 10px;">Bloco 1</div>
+        <div style="background-color: white; padding: 10px;">Bloco 2</div>
+        <div style="background-color: white; padding: 10px;">Bloco 3</div>
+        <div style="background-color: white; padding: 10px;">Bloco 4</div>
+    </article>
+
+    </main>
+    <footer>Rodapé da pagina</footer>
+
+
+
+</body>
+</html>
